@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+     
+        var a=null;
+        function Add()
+        {
+            let num=prompt("ввидите суммы для добавления на счёт")
+          
+            a+=parseInt(num);
+            alert(`сумма ${num} успешно добавленно `)
+            alert(`сумма на счёте ${a}`)
+         
+            let sec=parseInt(num[num.length-1])
+            switch(sec)
+            {
+                case 0:alert('рублей')
+                break;
+                case 5:alert('рублей')
+                break;
+                case 6:alert('рублей')
+                break;
+                case 7:alert('рублей')
+                break;
+                case 8:alert('рублей')
+                break;
+                case 1:alert('рубль')
+                break;
+                case 2:alert('рубля')
+                break;
+                case 3:alert('рубля')
+                break;
+            }
+
+        }
+        let b=Add();
+        let c=Add();
+    
+       
+    </script>
+</body>
+</html>
